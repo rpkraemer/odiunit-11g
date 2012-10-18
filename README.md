@@ -8,7 +8,7 @@ A simple framework to testing ODI (Oracle Data Integrator) scenarios in Java cod
 
 clone this repository:
 
-	git clone
+	git clone https://github.com/rpkraemer/odiunit-11g.git
 
 build the project:
                 
