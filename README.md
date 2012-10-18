@@ -1,8 +1,8 @@
-## odi-unit-11g
+# odi-unit-11g
 
 A simple framework to testing ODI (Oracle Data Integrator) scenarios in Java code.
 
-# building and contributing
+## building and contributing
 
 In order to build and/or contribute to this project, you have to clone this repository:
 
@@ -34,7 +34,7 @@ and generate a JAR of odi-unit-11g executing:
 
 	mvn install
 	
-#using odi-unit
+##using odi-unit
 
 After generating a JAR of this project (previous step), you can import it into your project.
 Beyond odi-unit-11g JAR, you must import from your Oracle Data Integrator installation the following libraries too:	
@@ -61,5 +61,5 @@ you will want to use.
 
 After adding this libraries, you will be able to start using odi-unit in your project.
 		
-# license
+## license
 odi-unit is licensed under the terms of the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
