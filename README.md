@@ -2,20 +2,24 @@
 
 A simple framework to testing ODI (Oracle Data Integrator) scenarios in Java code.
 
-# builing and contributing
+# building and contributing
 
 In order to build and/or contribute to this project, you have to clone this repository:
 
 	git clone https://github.com/rpkraemer/odiunit-11g.git
 
-after cloning, import the project into your Eclipse.
+after cloning, run the command:
+
+	mvn clean eclipse:eclipse
+
+and import the project into your Eclipse. 
 
 ### Oracle Data Integrator required library to compile
 
-Because this software uses some Oracle Data Integrator SDK libraries, you must add this library directly
+Because this software uses some Oracle Data Integrator SDK libraries, you must add one library directly
 from your ODI installation to the odi-unit-11g build path on Eclipse. 
 
-Its location path is:
+ODI libraries location:
 
 	<ODI_HOME>/oracledi.sdk/lib
 
@@ -52,7 +56,7 @@ Beyond odi-unit-11g JAR, you must import from your Oracle Data Integrator instal
     spring-dao.jar
     spring-jdbc.jar
 
-<b>Important: </b> you have to add JDBC Driver used by your Master Repository and any other driver
+<b>Important: </b> you have to add JDBC Driver used by your Master Repository and any other drivers
 you will want to use.
 
 After adding this libraries, you will be able to start using odi-unit in your project.
