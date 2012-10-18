@@ -1,0 +1,9 @@
+﻿123;fulano de tal; email@email.com
+teste;fulano de tal; email@email.com
+01teste;123;fulano de tal; email@email.com
+abc
+teste;a;fulano de tal; email@email.com
+testefulano de tal; email@email.com
+teste-abc;fulano de tal; email@email.com
+outra linha;email@email.com
+teste
